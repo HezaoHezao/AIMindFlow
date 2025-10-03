@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aimindflow-common-excel" />
+        <module name="aimindflow-common-chat" />
+        <module name="aimindflow-common-mybatis" />
+        <module name="aimindflow-common-security" />
+        <module name="aimindflow-common-encrypt" />
+        <module name="aimindflow-common-pay" />
+        <module name="aimindflow-common-ratelimiter" />
+        <module name="aimindflow-common-core" />
+        <module name="aimindflow-common-log" />
+        <module name="aimindflow-common-satoken" />
+        <module name="aimindflow-common-tenant" />
+        <module name="aimindflow-common-mail" />
+        <module name="aimindflow-common-idempotent" />
+        <module name="aimindflow-common-sensitive" />
+        <module name="aimindflow-common-sms" />
+        <module name="aimindflow-common-redis" />
+        <module name="aimindflow-common-doc" />
+        <module name="aimindflow-common-web" />
+        <module name="aimindflow-common-json" />
+        <module name="aimindflow-common-translation" />
+        <module name="aimindflow-common-oss" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,250 @@
+{
+  "groups": [
+    {
+      "name": "oss",
+      "type": "org.aimindflow.common.oss.config.OssProperties",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.aliyun",
+      "type": "org.aimindflow.common.oss.config.OssProperties$Aliyun",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.aws",
+      "type": "org.aimindflow.common.oss.config.OssProperties$Aws",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.huawei",
+      "type": "org.aimindflow.common.oss.config.OssProperties$Huawei",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.local",
+      "type": "org.aimindflow.common.oss.config.OssProperties$Local",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.minio",
+      "type": "org.aimindflow.common.oss.config.OssProperties$Minio",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.qiniu",
+      "type": "org.aimindflow.common.oss.config.OssProperties$Qiniu",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.tencent",
+      "type": "org.aimindflow.common.oss.config.OssProperties$Tencent",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "oss.aliyun.access-key",
+      "type": "java.lang.String",
+      "description": "访问密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Aliyun"
+    },
+    {
+      "name": "oss.aliyun.endpoint",
+      "type": "java.lang.String",
+      "description": "服务地址",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Aliyun"
+    },
+    {
+      "name": "oss.aliyun.secret-key",
+      "type": "java.lang.String",
+      "description": "密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Aliyun"
+    },
+    {
+      "name": "oss.aws.access-key",
+      "type": "java.lang.String",
+      "description": "访问密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Aws"
+    },
+    {
+      "name": "oss.aws.endpoint",
+      "type": "java.lang.String",
+      "description": "服务地址",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Aws"
+    },
+    {
+      "name": "oss.aws.secret-key",
+      "type": "java.lang.String",
+      "description": "密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Aws"
+    },
+    {
+      "name": "oss.base-path",
+      "type": "java.lang.String",
+      "description": "存储路径",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.bucket-name",
+      "type": "java.lang.String",
+      "description": "存储桶名称",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.domain",
+      "type": "java.lang.String",
+      "description": "域名",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "oss.expires",
+      "type": "java.lang.Integer",
+      "description": "过期时间（秒）",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.huawei.access-key",
+      "type": "java.lang.String",
+      "description": "访问密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Huawei"
+    },
+    {
+      "name": "oss.huawei.endpoint",
+      "type": "java.lang.String",
+      "description": "服务地址",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Huawei"
+    },
+    {
+      "name": "oss.huawei.secret-key",
+      "type": "java.lang.String",
+      "description": "密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Huawei"
+    },
+    {
+      "name": "oss.local.access-path",
+      "type": "java.lang.String",
+      "description": "访问路径",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Local",
+      "defaultValue": "\/upload\/**"
+    },
+    {
+      "name": "oss.local.access-prefix",
+      "type": "java.lang.String",
+      "description": "访问前缀",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Local",
+      "defaultValue": "\/upload"
+    },
+    {
+      "name": "oss.local.storage-path",
+      "type": "java.lang.String",
+      "description": "存储路径",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Local",
+      "defaultValue": "upload"
+    },
+    {
+      "name": "oss.max-parts",
+      "type": "java.lang.Integer",
+      "description": "最大分片数",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.minio.access-key",
+      "type": "java.lang.String",
+      "description": "访问密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Minio"
+    },
+    {
+      "name": "oss.minio.endpoint",
+      "type": "java.lang.String",
+      "description": "服务地址",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Minio"
+    },
+    {
+      "name": "oss.minio.secret-key",
+      "type": "java.lang.String",
+      "description": "密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Minio"
+    },
+    {
+      "name": "oss.minio.secure",
+      "type": "java.lang.Boolean",
+      "description": "是否启用HTTPS",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Minio",
+      "defaultValue": false
+    },
+    {
+      "name": "oss.part-size",
+      "type": "java.lang.Integer",
+      "description": "分片大小（字节）",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.qiniu.access-key",
+      "type": "java.lang.String",
+      "description": "访问密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Qiniu"
+    },
+    {
+      "name": "oss.qiniu.endpoint",
+      "type": "java.lang.String",
+      "description": "服务地址",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Qiniu"
+    },
+    {
+      "name": "oss.qiniu.secret-key",
+      "type": "java.lang.String",
+      "description": "密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Qiniu"
+    },
+    {
+      "name": "oss.region",
+      "type": "java.lang.String",
+      "description": "地域",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.storage-type",
+      "type": "java.lang.String",
+      "description": "存储类型",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.task-num",
+      "type": "java.lang.Integer",
+      "description": "并发数",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties"
+    },
+    {
+      "name": "oss.tencent.access-key",
+      "type": "java.lang.String",
+      "description": "访问密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Tencent"
+    },
+    {
+      "name": "oss.tencent.app-id",
+      "type": "java.lang.String",
+      "description": "应用ID",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Tencent"
+    },
+    {
+      "name": "oss.tencent.endpoint",
+      "type": "java.lang.String",
+      "description": "服务地址",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Tencent"
+    },
+    {
+      "name": "oss.tencent.secret-key",
+      "type": "java.lang.String",
+      "description": "密钥",
+      "sourceType": "org.aimindflow.common.oss.config.OssProperties$Tencent"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,99 @@
+{
+  "groups": [
+    {
+      "name": "aimindflow.tenant",
+      "type": "org.aimindflow.common.tenant.properties.TenantProperties",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties"
+    },
+    {
+      "name": "aimindflow.tenant.data-source",
+      "type": "org.aimindflow.common.tenant.properties.TenantProperties$DataSource",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aimindflow.tenant.data-source.default-data-source",
+      "type": "java.lang.String",
+      "description": "默认数据源名称",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties$DataSource",
+      "defaultValue": "master"
+    },
+    {
+      "name": "aimindflow.tenant.data-source.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用动态数据源",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties$DataSource",
+      "defaultValue": false
+    },
+    {
+      "name": "aimindflow.tenant.data-source.prefix",
+      "type": "java.lang.String",
+      "description": "数据源前缀",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties$DataSource",
+      "defaultValue": "tenant_"
+    },
+    {
+      "name": "aimindflow.tenant.default-tenant-id",
+      "type": "java.lang.String",
+      "description": "默认租户ID",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties",
+      "defaultValue": "000000"
+    },
+    {
+      "name": "aimindflow.tenant.disable-in-dev",
+      "type": "java.lang.Boolean",
+      "description": "是否在开发环境禁用多租户",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.tenant.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用多租户",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "aimindflow.tenant.ignore-sql-ids",
+      "type": "java.util.List<java.lang.String>",
+      "description": "忽略多租户的SQL ID列表",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties"
+    },
+    {
+      "name": "aimindflow.tenant.ignore-tables",
+      "type": "java.util.List<java.lang.String>",
+      "description": "忽略多租户的表名列表",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties"
+    },
+    {
+      "name": "aimindflow.tenant.ignore-tenant-id-empty",
+      "type": "java.lang.Boolean",
+      "description": "是否忽略租户ID为空的情况",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.tenant.tenant-id-column",
+      "type": "java.lang.String",
+      "description": "租户ID字段名",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties",
+      "defaultValue": "tenant_id"
+    },
+    {
+      "name": "aimindflow.tenant.tenant-id-header",
+      "type": "java.lang.String",
+      "description": "租户ID请求头名称",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties",
+      "defaultValue": "Tenant-Id"
+    },
+    {
+      "name": "aimindflow.tenant.tenant-id-param",
+      "type": "java.lang.String",
+      "description": "租户ID参数名称",
+      "sourceType": "org.aimindflow.common.tenant.properties.TenantProperties",
+      "defaultValue": "tenantId"
+    }
+  ],
+  "hints": []
+}

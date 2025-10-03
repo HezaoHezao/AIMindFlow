@@ -1,0 +1,119 @@
+{
+  "groups": [
+    {
+      "name": "aimindflow.security",
+      "type": "org.aimindflow.common.security.properties.SecurityProperties",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties"
+    },
+    {
+      "name": "aimindflow.security.jwt",
+      "type": "org.aimindflow.common.security.properties.SecurityProperties$Jwt",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties"
+    },
+    {
+      "name": "aimindflow.security.password",
+      "type": "org.aimindflow.common.security.properties.SecurityProperties$Password",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aimindflow.security.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用安全模块",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.security.exclude-paths",
+      "type": "java.util.List<java.lang.String>",
+      "description": "排除路径，不进行安全校验",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties"
+    },
+    {
+      "name": "aimindflow.security.jwt.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用JWT",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Jwt",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.security.jwt.expiration",
+      "type": "java.lang.Long",
+      "description": "JWT过期时间（秒）",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Jwt",
+      "defaultValue": 7200
+    },
+    {
+      "name": "aimindflow.security.jwt.header",
+      "type": "java.lang.String",
+      "description": "JWT请求头名称",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Jwt",
+      "defaultValue": "Authorization"
+    },
+    {
+      "name": "aimindflow.security.jwt.refresh-expiration",
+      "type": "java.lang.Long",
+      "description": "JWT刷新时间（秒）",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Jwt",
+      "defaultValue": 604800
+    },
+    {
+      "name": "aimindflow.security.jwt.secret",
+      "type": "java.lang.String",
+      "description": "JWT密钥",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Jwt",
+      "defaultValue": "aimindflow-jwt-secret-key-2024"
+    },
+    {
+      "name": "aimindflow.security.jwt.token-prefix",
+      "type": "java.lang.String",
+      "description": "JWT令牌前缀",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Jwt",
+      "defaultValue": "Bearer "
+    },
+    {
+      "name": "aimindflow.security.password.max-length",
+      "type": "java.lang.Integer",
+      "description": "密码最大长度",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Password",
+      "defaultValue": 20
+    },
+    {
+      "name": "aimindflow.security.password.min-length",
+      "type": "java.lang.Integer",
+      "description": "密码最小长度",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Password",
+      "defaultValue": 6
+    },
+    {
+      "name": "aimindflow.security.password.require-digit",
+      "type": "java.lang.Boolean",
+      "description": "是否需要包含数字",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Password",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.security.password.require-letter",
+      "type": "java.lang.Boolean",
+      "description": "是否需要包含字母",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Password",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.security.password.require-special-char",
+      "type": "java.lang.Boolean",
+      "description": "是否需要包含特殊字符",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Password",
+      "defaultValue": false
+    },
+    {
+      "name": "aimindflow.security.password.strength",
+      "type": "java.lang.Integer",
+      "description": "密码加密强度（BCrypt rounds）",
+      "sourceType": "org.aimindflow.common.security.properties.SecurityProperties$Password",
+      "defaultValue": 10
+    }
+  ],
+  "hints": []
+}

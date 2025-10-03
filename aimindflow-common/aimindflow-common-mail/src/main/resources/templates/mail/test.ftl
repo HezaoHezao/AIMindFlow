@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>测试邮件模板</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #4285f4;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px 5px 0 0;
+        }
+        .content {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>AIMindFlow</h1>
+    </div>
+    <div class="content">
+        <p>尊敬的 ${username}，您好！</p>
+        <p>${message}</p>
+        <p>感谢您使用AIMindFlow系统！</p>
+    </div>
+    <div class="footer">
+        <p>此邮件由系统自动发送，请勿回复。</p>
+        <p>© 2024 AIMindFlow. All rights reserved.</p>
+    </div>
+</body>
+</html>

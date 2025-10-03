@@ -1,0 +1,7 @@
+org\aimindflow\common\tenant\handler\TenantLineHandlerImpl.class
+org\aimindflow\common\tenant\properties\TenantProperties.class
+org\aimindflow\common\tenant\config\TenantAutoConfiguration.class
+org\aimindflow\common\tenant\properties\TenantProperties$DataSource.class
+org\aimindflow\common\tenant\interceptor\TenantInterceptor.class
+org\aimindflow\common\tenant\context\TenantContext.class
+META-INF\spring-configuration-metadata.json

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>aimindflow</artifactId>
+        <groupId>org.aimindflow</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>aimindflow-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>aimindflow-common通用模块</description>
+    
+    <properties>
+        <hutool.version>5.8.26</hutool.version>
+        <okhttp.version>4.12.0</okhttp.version>
+        <ip2region.version>2.7.0</ip2region.version>
+        <mapstruct-plus.version>1.3.5</mapstruct-plus.version>
+        <guava.version>32.1.2-jre</guava.version>
+        <poi.version>5.2.3</poi.version>
+        <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
+    </properties>
+    
+    <modules>
+        <module>aimindflow-common-bom</module>
+        <module>aimindflow-common-chat</module>
+        <module>aimindflow-common-core</module>
+        <module>aimindflow-common-doc</module>
+        <module>aimindflow-common-encrypt</module>
+        <module>aimindflow-common-excel</module>
+        <module>aimindflow-common-idempotent</module>
+        <module>aimindflow-common-json</module>
+        <module>aimindflow-common-log</module>
+        <module>aimindflow-common-mail</module>
+        <module>aimindflow-common-mybatis</module>
+        <module>aimindflow-common-oss</module>
+        <module>aimindflow-common-pay</module>
+        <module>aimindflow-common-ratelimiter</module>
+        <module>aimindflow-common-redis</module>
+        <module>aimindflow-common-satoken</module>
+        <module>aimindflow-common-security</module>
+        <module>aimindflow-common-sensitive</module>
+        <module>aimindflow-common-sms</module>
+        <module>aimindflow-common-tenant</module>
+        <module>aimindflow-common-translation</module>
+        <module>aimindflow-common-web</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- 核心模块 -->
+            <dependency>
+                <groupId>org.aimindflow</groupId>
+                <artifactId>aimindflow-common-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- 聊天模块 -->
+            <dependency>
+                <groupId>org.aimindflow</groupId>
+                <artifactId>aimindflow-common-chat</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- Hutool工具模块 -->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
+            <!-- 离线IP地址定位库 -->
+            <dependency>
+                <groupId>org.lionsoul</groupId>
+                <artifactId>ip2region</artifactId>
+                <version>${ip2region.version}</version>
+            </dependency>
+
+            <!-- MapStruct Plus -->
+            <dependency>
+                <groupId>io.github.linpeilie</groupId>
+                <artifactId>mapstruct-plus-spring-boot-starter</artifactId>
+                <version>${mapstruct-plus.version}</version>
+            </dependency>
+
+            <!-- Guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+
+            <!-- Apache POI -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+
+            <!-- MyBatis-Plus -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

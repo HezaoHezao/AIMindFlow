@@ -1,0 +1,6 @@
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-redis\src\main\java\org\aimindflow\common\redis\manager\RedisCacheManager.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-redis\src\main\java\org\aimindflow\common\redis\utils\RedisUtils.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-redis\src\main\java\org\aimindflow\common\redis\config\RedisProperties.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-redis\src\main\java\org\aimindflow\common\redis\config\RedisAutoConfiguration.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-redis\src\main\java\org\aimindflow\common\redis\config\RedisConfig.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-redis\src\main\java\org\aimindflow\common\redis\lock\RedisDistributedLock.java

@@ -1,0 +1,8 @@
+org\aimindflow\common\translation\config\TranslationAutoConfiguration.class
+org\aimindflow\common\translation\util\TranslationUtils.class
+org\aimindflow\common\translation\properties\TranslationProperties.class
+org\aimindflow\common\translation\annotation\Translation.class
+org\aimindflow\common\translation\handler\TranslationResponseBodyAdvice.class
+META-INF\spring-configuration-metadata.json
+org\aimindflow\common\translation\service\impl\DefaultTranslationService.class
+org\aimindflow\common\translation\service\TranslationService.class

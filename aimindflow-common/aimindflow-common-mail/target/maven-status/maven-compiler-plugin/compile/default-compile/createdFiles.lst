@@ -1,0 +1,10 @@
+org\aimindflow\common\mail\constant\MailConstants.class
+org\aimindflow\common\mail\service\impl\DefaultMailServiceImpl.class
+org\aimindflow\common\mail\util\MailUtils.class
+org\aimindflow\common\mail\config\MailConfig.class
+org\aimindflow\common\mail\entity\MailInfo$MailInfoBuilder.class
+org\aimindflow\common\mail\controller\MailController.class
+org\aimindflow\common\mail\entity\MailInfo.class
+org\aimindflow\common\mail\config\MailAutoConfiguration.class
+org\aimindflow\common\mail\service\MailService.class
+org\aimindflow\common\mail\exception\MailException.class

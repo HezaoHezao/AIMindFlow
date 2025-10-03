@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "translation",
+      "type": "org.aimindflow.common.translation.properties.TranslationProperties",
+      "sourceType": "org.aimindflow.common.translation.properties.TranslationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "translation.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用响应拦截进行统一翻译",
+      "sourceType": "org.aimindflow.common.translation.properties.TranslationProperties",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

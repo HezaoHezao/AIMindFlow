@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-bom/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-bom/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-chat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-chat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-doc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-doc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-encrypt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-encrypt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-excel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-excel/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-idempotent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-idempotent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-json/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-mail/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-oss/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-oss/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-pay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-ratelimiter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-ratelimiter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-satoken/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-satoken/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-sensitive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-sensitive/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-sms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-tenant/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-tenant/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-translation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-translation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/aimindflow-common-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-extend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-extend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-modules-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-modules-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-modules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aimindflow-modules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

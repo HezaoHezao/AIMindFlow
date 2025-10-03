@@ -1,0 +1,145 @@
+{
+  "groups": [
+    {
+      "name": "aimindflow.sms",
+      "type": "org.aimindflow.common.sms.properties.SmsProperties",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties"
+    },
+    {
+      "name": "aimindflow.sms.aliyun",
+      "type": "org.aimindflow.common.sms.properties.SmsProperties$Aliyun",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties"
+    },
+    {
+      "name": "aimindflow.sms.limit",
+      "type": "org.aimindflow.common.sms.properties.SmsProperties$Limit",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties"
+    },
+    {
+      "name": "aimindflow.sms.tencent",
+      "type": "org.aimindflow.common.sms.properties.SmsProperties$Tencent",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aimindflow.sms.aliyun.access-key-id",
+      "type": "java.lang.String",
+      "description": "AccessKey ID",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Aliyun"
+    },
+    {
+      "name": "aimindflow.sms.aliyun.access-key-secret",
+      "type": "java.lang.String",
+      "description": "AccessKey Secret",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Aliyun"
+    },
+    {
+      "name": "aimindflow.sms.aliyun.endpoint",
+      "type": "java.lang.String",
+      "description": "端点",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Aliyun",
+      "defaultValue": "dysmsapi.aliyuncs.com"
+    },
+    {
+      "name": "aimindflow.sms.aliyun.region-id",
+      "type": "java.lang.String",
+      "description": "地域节点",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Aliyun",
+      "defaultValue": "cn-hangzhou"
+    },
+    {
+      "name": "aimindflow.sms.aliyun.sign-name",
+      "type": "java.lang.String",
+      "description": "短信签名",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Aliyun"
+    },
+    {
+      "name": "aimindflow.sms.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用短信服务",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.sms.limit.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用发送限制",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Limit",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.sms.limit.max-per-day",
+      "type": "java.lang.Integer",
+      "description": "同一手机号每天最大发送次数",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Limit",
+      "defaultValue": 10
+    },
+    {
+      "name": "aimindflow.sms.limit.max-per-hour",
+      "type": "java.lang.Integer",
+      "description": "同一手机号每小时最大发送次数",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Limit",
+      "defaultValue": 5
+    },
+    {
+      "name": "aimindflow.sms.limit.max-per-ip-hour",
+      "type": "java.lang.Integer",
+      "description": "同一IP每小时最大发送次数",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Limit",
+      "defaultValue": 100
+    },
+    {
+      "name": "aimindflow.sms.limit.max-per-ip-minute",
+      "type": "java.lang.Integer",
+      "description": "同一IP每分钟最大发送次数",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Limit",
+      "defaultValue": 10
+    },
+    {
+      "name": "aimindflow.sms.limit.max-per-minute",
+      "type": "java.lang.Integer",
+      "description": "同一手机号每分钟最大发送次数",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Limit",
+      "defaultValue": 1
+    },
+    {
+      "name": "aimindflow.sms.provider",
+      "type": "org.aimindflow.common.sms.properties.SmsProperties$ProviderType",
+      "description": "短信服务提供商类型",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties"
+    },
+    {
+      "name": "aimindflow.sms.tencent.app-id",
+      "type": "java.lang.String",
+      "description": "短信应用ID",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Tencent"
+    },
+    {
+      "name": "aimindflow.sms.tencent.region",
+      "type": "java.lang.String",
+      "description": "地域",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Tencent",
+      "defaultValue": "ap-beijing"
+    },
+    {
+      "name": "aimindflow.sms.tencent.secret-id",
+      "type": "java.lang.String",
+      "description": "SecretId",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Tencent"
+    },
+    {
+      "name": "aimindflow.sms.tencent.secret-key",
+      "type": "java.lang.String",
+      "description": "SecretKey",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Tencent"
+    },
+    {
+      "name": "aimindflow.sms.tencent.sign-name",
+      "type": "java.lang.String",
+      "description": "短信签名",
+      "sourceType": "org.aimindflow.common.sms.properties.SmsProperties$Tencent"
+    }
+  ],
+  "hints": []
+}

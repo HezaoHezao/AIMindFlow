@@ -1,0 +1,84 @@
+{
+  "groups": [
+    {
+      "name": "aimindflow.chat",
+      "type": "org.aimindflow.common.chat.config.ChatConfig",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aimindflow.chat.api-key",
+      "type": "java.lang.String",
+      "description": "API密钥",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig"
+    },
+    {
+      "name": "aimindflow.chat.connect-timeout",
+      "type": "java.lang.Integer",
+      "description": "连接超时时间（秒）",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig",
+      "defaultValue": 30
+    },
+    {
+      "name": "aimindflow.chat.default-max-tokens",
+      "type": "java.lang.Integer",
+      "description": "默认最大生成的token数",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig",
+      "defaultValue": 2048
+    },
+    {
+      "name": "aimindflow.chat.default-model",
+      "type": "java.lang.String",
+      "description": "默认模型",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig",
+      "defaultValue": "gpt-3.5-turbo"
+    },
+    {
+      "name": "aimindflow.chat.default-temperature",
+      "type": "java.lang.Double",
+      "description": "默认温度参数",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig",
+      "defaultValue": 0.7
+    },
+    {
+      "name": "aimindflow.chat.proxy-host",
+      "type": "java.lang.String",
+      "description": "代理主机",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig"
+    },
+    {
+      "name": "aimindflow.chat.proxy-password",
+      "type": "java.lang.String",
+      "description": "代理密码",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig"
+    },
+    {
+      "name": "aimindflow.chat.proxy-port",
+      "type": "java.lang.Integer",
+      "description": "代理端口",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig"
+    },
+    {
+      "name": "aimindflow.chat.proxy-username",
+      "type": "java.lang.String",
+      "description": "代理用户名",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig"
+    },
+    {
+      "name": "aimindflow.chat.read-timeout",
+      "type": "java.lang.Integer",
+      "description": "读取超时时间（秒）",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig",
+      "defaultValue": 60
+    },
+    {
+      "name": "aimindflow.chat.write-timeout",
+      "type": "java.lang.Integer",
+      "description": "写入超时时间（秒）",
+      "sourceType": "org.aimindflow.common.chat.config.ChatConfig",
+      "defaultValue": 30
+    }
+  ],
+  "hints": []
+}

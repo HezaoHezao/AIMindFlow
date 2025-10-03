@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "aimindflow.sensitive",
+      "type": "org.aimindflow.common.sensitive.properties.SensitiveProperties",
+      "sourceType": "org.aimindflow.common.sensitive.properties.SensitiveProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aimindflow.sensitive.default-mask-char",
+      "type": "java.lang.String",
+      "description": "默认脱敏字符",
+      "sourceType": "org.aimindflow.common.sensitive.properties.SensitiveProperties",
+      "defaultValue": "*"
+    },
+    {
+      "name": "aimindflow.sensitive.disable-in-dev",
+      "type": "java.lang.Boolean",
+      "description": "是否在开发环境禁用脱敏",
+      "sourceType": "org.aimindflow.common.sensitive.properties.SensitiveProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "aimindflow.sensitive.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用敏感数据处理",
+      "sourceType": "org.aimindflow.common.sensitive.properties.SensitiveProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.sensitive.log-enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用日志脱敏",
+      "sourceType": "org.aimindflow.common.sensitive.properties.SensitiveProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "aimindflow.sensitive.response-enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用响应体脱敏",
+      "sourceType": "org.aimindflow.common.sensitive.properties.SensitiveProperties",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

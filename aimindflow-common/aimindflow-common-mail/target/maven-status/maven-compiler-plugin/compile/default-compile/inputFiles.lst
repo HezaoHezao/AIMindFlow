@@ -1,0 +1,9 @@
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-mail\src\main\java\org\aimindflow\common\mail\service\impl\DefaultMailServiceImpl.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-mail\src\main\java\org\aimindflow\common\mail\entity\MailInfo.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-mail\src\main\java\org\aimindflow\common\mail\service\MailService.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-mail\src\main\java\org\aimindflow\common\mail\util\MailUtils.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-mail\src\main\java\org\aimindflow\common\mail\controller\MailController.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-mail\src\main\java\org\aimindflow\common\mail\config\MailConfig.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-mail\src\main\java\org\aimindflow\common\mail\config\MailAutoConfiguration.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-mail\src\main\java\org\aimindflow\common\mail\constant\MailConstants.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-mail\src\main\java\org\aimindflow\common\mail\exception\MailException.java

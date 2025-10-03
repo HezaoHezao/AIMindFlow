@@ -1,0 +1,13 @@
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\service\impl\OpenAiChatServiceImpl.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\utils\ChatUtils.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\exception\ChatException.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\config\ChatAutoConfiguration.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\constant\ChatErrorCode.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\openai\OpenAiAuthInterceptor.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\constant\ChatConstants.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\service\ChatService.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\request\ChatRequest.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\config\ChatConfig.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\factory\ChatServiceFactory.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\openai\DefaultOpenAiAuthInterceptor.java
+D:\IntelliJ IDEA 2024.2.4\Files\AIMindFlow\aimindflow-common\aimindflow-common-chat\src\main\java\org\aimindflow\common\chat\response\ChatResponse.java
